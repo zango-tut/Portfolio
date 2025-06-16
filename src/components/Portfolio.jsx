@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { Link } from 'react-scroll';
 import { useForm, ValidationError } from '@formspree/react';
 import TypingEffect from './TypeEffect';
+import AboutSection from './AboutSection';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -190,28 +191,7 @@ const Portfolio = () => {
       </section>
 
       {/* About Section */}
-      <section id="about" className={`py-12 md:py-20 bg-gray-800/50`}>
-        <div className={`container mx-auto px-4`}>
-          <div className={`flex flex-col md:flex-row items-center gap-10`}>
-            <div data-aos="fade-right" className={`w-full max-h-1/2 overflow-hidden md:w-1/3 max-md:w-3/4`}>
-              <img
-                src="corrected_logo_.png"
-                alt="Profile Picture"
-                className={`rounded-lg shadow-2xl  hover:scale-105 transition-transform`}
-              />
-            </div>
-            <div data-aos="fade-left" className={`w-full px-3 md:w-1/2 mt-6 md:mt-0`}>
-              <h2 className={`text-3xl md:text-4xl font-bold text-white mb-4`}>About Me</h2>
-              <p className={`text-gray-300 leading-relaxed text-sm md:text-base`}>
-                Passionate developer with expertise in creating beautiful web experiences.
-                Specializing in React development and UI/UX design. Bringing ideas to life
-                through clean code and creative solutions.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
+      <AboutSection/>
       {/* Projects Section */}
       <section id="projects" className={`mx-4 py-12 md:py-20`}>
         <div className={`container mx-auto px-4`}>
