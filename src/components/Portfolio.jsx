@@ -33,19 +33,19 @@ const Portfolio = () => {
   const projects = [
     {
       name: "R.P.S Game",
-      screenshot: "/ScreenShots/Thumnil_RPS.png",
+      screenshot: "/Portfolio/ScreenShots/Thumnil_RPS.png",
       text: "A fast-paced hand game where players choose rock, paper, or scissors to outsmart their opponent.",
       url: "https://zango-tut.github.io/R.P.S_game/"
     },
     {
       name: "Weather App",
-      screenshot: "/ScreenShots/Thumnil_weather.png",
+      screenshot: "/Portfolio/ScreenShots/Thumnil_weather.png",
       text: "A sleek app that shows real-time weather updates with forecasts for your location.",
       url: "https://zango-tut.github.io/SereneSky/"
     },
     {
       name: "Todo App",
-      screenshot: "/ScreenShots/Thumnil_todo.png",
+      screenshot: "/Portfolio/ScreenShots/Thumnil_todo.png",
       text: "A simple and clean app to organize tasks, set reminders, and boost productivity.",
       url: "https://zango-tut.github.io/Zaf-tasks/"
     }
