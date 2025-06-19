@@ -4,4 +4,21 @@
     transition: all 500s ease-out;
 }
 
+.gradient-bg {
+    background-image: linear-gradient(
+      to bottom right,
+      #111827,  /* Tailwind's gray-900 */
+      #6b21a8,  /* Tailwind's purple-900 */
+      #111827   /* Tailwind's gray-900 again */
+    );
+  }
 
+#root{
+        background-image: linear-gradient(
+          to bottom right,
+          #111827,  /* Tailwind's gray-900 */
+          #6b21a8,  /* Tailwind's purple-900 */
+          #111827   /* Tailwind's gray-900 again */
+        );
+      
+}
